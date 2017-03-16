@@ -1,4 +1,4 @@
-set nocompatible              " be iMproved, required
+se nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -39,6 +39,9 @@ set ruler       " Affiche la position du curseur
 set mouse=a  " Active la souris dans vim
 set ruler               " Affiche la position du curseur.
 set showcmd
+
+"========NMAP==========
+ map <F8> : !gcc % && ./a.out <CR> " Enregistre et compile puis lance le fichier C
 
 
 "======FONCTION DE SPLIT D'ÉCRANS========
